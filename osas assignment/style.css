@@ -1,0 +1,120 @@
+body{background: rgba(201, 199, 104, 0.589);
+background-size:cover;}
+
+p{font-size:15px;
+color:black;
+text-align:justify;}
+
+h1
+{color:rgb(42, 117, 216);
+    font-family:Arial;
+text-align:center;}
+
+h2
+{color:rgb(42, 117, 216);
+    font-family:Arial;
+text-align:left;}
+
+h3
+{color:rgb(42, 117, 216);
+    font-family:Arial;
+text-align:center;}
+
+ul 
+{list-style-type:none;
+    font-family:arial;
+    margin:0px;
+    padding:0px;
+    width:28%;
+    font-size:16px;
+    position:fixed;
+    height:100%;
+    text-align:left;
+    overflow:auto;
+    left:0;}
+
+    img{width:25%;height:30%}
+    
+.sidebar ul a
+{display:block;
+    color:white;
+    padding:8px 16px;
+    padding-left: 40px;
+    line-height:400%;
+    box-sizing:border-box;
+    border-top:1px solid;
+    border-bottom:1px solid;
+    text-decoration:none;
+    background-color: rgba(5, 38, 185, 0.89);
+    transition:.4s;
+}
+    
+li a.active
+{color:white;
+background-color:green}
+
+ul li:hover a
+{background-color:rgb(6, 6, 7);
+padding-left:20px;}
+
+.sidebar ul a i
+{margin-right:16px}
+
+header
+{float:right}
+
+.sign
+{color:white;
+font-size:20px;
+box-sizing:border-box;
+border-top:1px solid;
+border-bottom:1px solid;
+border-left: 1px solid;
+border-right:1px solid;
+text-align:center;
+background-color: blue;}
+
+.logo
+{width:150%;
+height:100%;}
+
+.footer
+{background:rgb(2, 127, 185); 
+color: white;
+height:20px;
+width:200%;
+position:fixed;
+bottom:0px;
+left:0px;
+text-align:center;}
+
+    body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 50px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
